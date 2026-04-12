@@ -24,9 +24,15 @@
     to set up and try to raise money for their causes.
     This year, the event reached an all time high so we've asked each club who
     participated to share their accounting charts with us so we can
-    analyze these amazing young minds. Of the 7 clubs that participated
-    5 of them made a profit 2 broke even and 0 of them Lost money. 
-    Lets take a look at the numbers and see how they did it.
+    analyze these amazing young minds. Of the 7 clubs that participated,
+    5 of them made a profit, 2 broke even, and 0 of them lost money.
+
+    \vspace{1em}
+    \textbf{How does algebra help?}
+
+    Each club used basic algebra to plan their budgets, predict their revenues, and calculate their profits. By setting up simple equations, they could solve for unknowns like how many items to sell to break even, or how much to spend without risking a loss. This practical use of algebra helped them make smart financial decisions!
+
+    Let's take a look at the numbers and see how they did it.
 
 \end{frame}
 \begin{frame}{The Budget}
@@ -34,40 +40,87 @@
     had to spend on their booth. Each club had a different budget, but they all 
     had to spend money on materials, decorations, and supplies. The budgets ranged 
     from $100 to $500, with an average of $300. 
-
-    \begin{columns}
-    \column{0.5\textwidth}
-    Here's a breakdown of the budgets for each club
-
-    \column{0.5\textwidth}
+    \vfill
+    \begin{center}
         \begin{tikzpicture}
             \begin{axis}[
                 ybar,
                 symbolic x coords={Club A, Club B, Club C, Club D, Club E, Club F, Club G},
                 xtick=data,
                 ymin=0,
-                ymax=600,
+                ymax=400,
                 ylabel={Budget (\$)},
                 xlabel={Clubs},
-                title={Budgets of Each Club}
+                title={Budgets of Each Club},
+                width = 6cm,
+                height = 4cm
             ]
-            \addplot coordinates {(Club A, 100) (Club B, 200) (Club C, 300) (Club D, 400) (Club E, 500) (Club F, 300) (Club G, 200)};
+            \addplot coordinates {(A, 100) (B, 200) (C, 300) (D, 400) (E, 500) (F, 300) (G, 200)};
             \end{axis}
         \end{tikzpicture}
-    \end{columns}
+    \end{center}
 
 \end{frame}
 \begin{frame}{The Revenue}
-    %content
+    Now, let's look at the revenue each club generated during the event. Revenue is the total amount of money each club earned from their booth sales. Some clubs were able to raise much more than their initial budget!
+    \vfill
+    \begin{center}
+        \begin{tikzpicture}
+            \begin{axis}[
+                ybar,
+                symbolic x coords={A, B, C, D, E, F, G},
+                xtick=data,
+                ymin=0,
+                ymax=800,
+                ylabel={Revenue (\$)},
+                xlabel={Clubs},
+                title={Revenues of Each Club},
+                width=8cm,
+                height=5cm
+            ]
+            \addplot coordinates {(A, 250) (B, 300) (C, 350) (D, 600) (E, 700) (F, 400) (G, 200)};
+            \end{axis}
+        \end{tikzpicture}
+    \end{center}
 \end{frame}
 \begin{frame}{The Profit}
-    %content
+    The profit is the difference between the revenue and the budget for each club. This shows how much money each club actually made after covering their expenses.
+    
+    \vfill
+    \begin{center}
+        \begin{tikzpicture}
+            \begin{axis}[
+                ybar,
+                symbolic x coords={A, B, C, D, E, F, G},
+                xtick=data,
+                ymin=0,
+                ymax=300,
+                ylabel={Profit (\$)},
+                xlabel={Clubs},
+                title={Profits of Each Club},
+                width=8cm,
+                height=5cm
+            ]
+            \addplot coordinates {(A, 150) (B, 100) (C, 50) (D, 200) (E, 200) (F, 100) (G, 0)};
+            \end{axis}
+        \end{tikzpicture}
+    \end{center}
 \end{frame}
 \begin{frame}{The Break-Even Point}
-    %content
+    The break-even point is when a club's revenue equals its budget, meaning they didn't make a profit or a loss. Clubs that broke even covered all their costs but didn't earn extra money.
+
+    In our event, Club G broke even, while all other clubs made a profit. No club lost money!
+
+    \begin{itemize}
+        \item \textbf{Break-even:} Club G
+        \item \textbf{Profit:} Clubs A, B, C, D, E, F
+        \item \textbf{Loss:} None
+    \end{itemize}
 \end{frame}
 \begin{frame}{The Conclusion}
-    %content
+    In conclusion, the fundraiser event was a huge success! Most clubs made a profit, and everyone managed their budgets well. This shows how basic algebra and careful planning can help achieve financial goals.
+
+    Congratulations to all the clubs for their hard work and smart budgeting!
 \end{frame}
 
 \end{document}
