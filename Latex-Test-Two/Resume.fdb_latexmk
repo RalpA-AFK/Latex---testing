@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1776036522.47051 "c:/Users/babyd/.vscode/Latex---testing/Latex-Test-Two/Resume.tex" "Resume.pdf" "Resume" 1776036524.6887 0
+["pdflatex"] 1776039319.98544 "c:/Users/babyd/.vscode/Latex---testing/Latex-Test-Two/Resume.tex" "Resume.pdf" "Resume" 1776039322.13401 0
   "C:/Users/babyd/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1776035177 82714 c9c37d051a0c563641ee6353df77525b ""
   "C:/Users/babyd/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1775232359 13333486 a20acf026f3c44f53a9f4bd4f6bdd0a4 ""
   "C:/Users/babyd/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -80,10 +80,10 @@
   "C:/Users/babyd/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1761901070 7243 a2c17f18e2c9b702b84fad03d5f9c78b ""
   "C:/Users/babyd/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty" 1761901070 7532 26d26e9d8f2ca784270d5da8ec7d102b ""
   "C:/Users/babyd/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "Resume.aux" 1776036524 814 54c164f2a946d5ca0aa9279271069435 "pdflatex"
-  "Resume.out" 1776036524 463 465be65b0a5ff48595e1b629699d9fbc "pdflatex"
-  "Resume.tex" 1776036514 5985 6ce5dbf6b915be8d8397fa11dd07fe6d ""
-  "c:/Users/babyd/.vscode/Latex---testing/Latex-Test-Two/Resume.tex" 1776036514 5985 6ce5dbf6b915be8d8397fa11dd07fe6d ""
+  "Resume.aux" 1776039321 918 e50a95e5fd28560e895bde0568ea67b8 "pdflatex"
+  "Resume.out" 1776039321 541 4333a1c7db867caed26f998479d12555 "pdflatex"
+  "Resume.tex" 1776039311 6009 0ad3cfb4ecff01669b27cd4c8f6b124f ""
+  "c:/Users/babyd/.vscode/Latex---testing/Latex-Test-Two/Resume.tex" 1776039311 6009 0ad3cfb4ecff01669b27cd4c8f6b124f ""
   (generated)
   "Resume.aux"
   "Resume.log"
